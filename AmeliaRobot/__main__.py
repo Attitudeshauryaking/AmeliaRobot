@@ -96,10 +96,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` ⚡۩ 𝕋𝕙𝕠𝕣 ۩⚡ [🙋‍♀️](https://te.legra.ph/file/eae8df409be94d740a5cd.jpg)
+`ʜɪ.. ɪ'ᴍ` ⚡۩ 𝕋𝕙𝕠𝕣 ۩⚡ [🙋‍♀️](https://te.legra.ph/file/26bd59d32df9d8bc7774c.jpg)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-amelia_IMG = "https://te.legra.ph/file/eae8df409be94d740a5cd.jpg"
+amelia_IMG = "https://te.legra.ph/file/26bd59d32df9d8bc7774c.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @itsmelegend\
@@ -357,8 +357,8 @@ def amelia_about_callback(update, context):
                  \n💫 I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n⚡ I check for admins' permissions before executing any command and more stuffs
                  \n\n_💫bot licensed under the GNU General Public License v3.0_
-                 \n⚡Here is the [🔥ᴏᴜʀ ᴍᴜꜱɪᴄ ʙᴏᴛ🥂](Https://t.me/Op_moti_music_robot).
-                 \n\nIf you have any question about amelia, let us know at [🔥ᴏᴡɴᴇʀ🔥](Https://t.me/@lAlone_Shaurya_king) .""",
+                 \n⚡Here is the [🎶ᴏᴜʀ ᴍᴜꜱɪᴄ ʙᴏᴛ🎶](Https://t.me/Op_moti_music_robot).
+                 \n\nIf you have any question about amelia, let us know at [👑ᴏᴡɴᴇʀ👑](Https://t.me/Alone_Shaurya_king) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
