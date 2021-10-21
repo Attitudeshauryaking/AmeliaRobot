@@ -560,8 +560,8 @@ Get information about anime, manga or characters from [AniList](anilist.co).
  • `/manga <manga>`*:* returns information about the manga.
  • `/user <user>`*:* returns information about a MyAnimeList user.
  • `/upcoming`*:* returns a list of new anime in the upcoming seasons.
- • `/kaizoku <anime>`*:* search an anime on animekaizoku.com
- • `/kayo <anime>`*:* search an anime on animekayo.com
+ • `/kaizoku <anime>`*:* search an anime on @sweetkingdom1
+ • `/kayo <anime>`*:* search an anime on @sweetkingdom1
  • `/airing <anime>`*:* returns anime airing info.
  • /whatanime - reply to gif or video
  """
