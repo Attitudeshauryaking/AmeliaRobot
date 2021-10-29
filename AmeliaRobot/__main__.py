@@ -84,7 +84,7 @@ buttons = [
             text="➕️ ᴀᴅᴅ ⚡۩ 𝕋𝕙𝕠𝕣 ۩⚡ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/King_Thor_robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="amelia_"),
+        InlineKeyboardButton(text=",📣ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="amelia_"),
         InlineKeyboardButton(
             text="⚜️ᴏᴡɴᴇʀ⚜️", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
