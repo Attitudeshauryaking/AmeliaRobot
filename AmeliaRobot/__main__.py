@@ -73,36 +73,50 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """
-ʜᴇʟʟᴏ [⚡](https://te.legra.ph/file/eae8df409be94d740a5cd.jpg), I'm ⚡۩ 𝕋𝕙𝕠𝕣 ۩⚡ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
+PM_START_TEXT = """[⚡](https://telegra.ph/file/fe6cdd4bc4fc17820083a.jpg) ℍ𝕖𝕝𝕝𝕠 𝕀'𝕞 [۩ 𝕋ℍ𝕆ℝ ۩ ](Https://t.me/@king_thor_robot)
+•❅─────✧❅✦❅✧─────❅•
+┏━━━━━━━━━━━━━━━━━┓
+┣★🔰𝔸 𝔸𝕕𝕧𝕒𝕟𝕔𝕖𝕕 𝕋𝕖𝕝𝕖𝕘𝕣𝕒𝕞 𝔾𝕣𝕠𝕦𝕡 𝕙𝕒𝕟𝕕𝕝𝕖𝕣 𝔹𝕠𝕥 𝕨𝕚𝕥𝕙 𝕔𝕠𝕠𝕝 𝔽𝕖𝕒𝕥𝕦𝕣𝕖𝕤.
+┣★🔥𝕐𝕠𝕦 𝕔𝕒𝕟 𝕦𝕤𝕖 𝕞𝕖 𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 𝕒𝕝𝕤𝕠
+┣★🔥𝕋𝕙𝕒𝕟𝕜𝕤 𝕗𝕠𝕣 𝕦𝕤𝕚𝕟𝕘 ➢𝐎𝐀𝐍
+┣★🔗𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : [⚡𝔸𝕋𝕋𝕀𝕋𝕌𝔻𝔼 ℕ𝔼𝕋𝕎𝕆ℝ𝕂⚡](Https://t.me/Attitude_Network)
+┣★ ℍ𝕚𝕥 𝕗𝕠𝕣 𝕥𝕠𝕠𝕝𝕤 ☛ /help
+┗━━━━━━━━━━━━━━━━┛
+•❅─────✧❅✦❅✧─────❅•
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ⚡۩ 𝕋𝕙𝕠𝕣 ۩⚡ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/King_Thor_robot?startgroup=true"),
+            text="𝔸𝔻𝔻 𝕋ℍ𝕆ℝ 𝕋𝕆 𝕐𝕆𝕌ℝ 𝔾ℝ𝕆𝕌ℙ", url="t.me/King_Thor_robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text=",📣ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="amelia_"),
+        InlineKeyboardButton(text="𝕌ℙ𝔻𝔸𝕋𝔼𝕊🔊", url=f"https://t.me/Attitude_Network"),
         InlineKeyboardButton(
-            text="⚜️ᴏᴡɴᴇʀ⚜️", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="𝕊𝕌ℙℙ𝕆ℝ𝕋🛎️", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="🍹ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="ℹ️𝔸𝔹𝕆𝕌𝕋 𝕄𝔼", callback_data="amelia_"),
+        InlineKeyboardButton(
+            text="⚜️𝕆𝕎ℕ𝔼ℝ⚜️", url=f"https://t.me/ItsAttitudeking"
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="🍹ℍ𝔼𝕃ℙ & ℂ𝕆𝕄𝕄𝔸ℕ𝔻𝕊❔", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` ⚡۩ 𝕋𝕙𝕠𝕣 ۩⚡ [🙋‍♀️](https://te.legra.ph/file/26bd59d32df9d8bc7774c.jpg)
-`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
+`ℍ𝕚...... 𝕀'𝕞  ⚡۩ 𝕋𝕙𝕠𝕣 ۩[⚡](https://te.legra.ph/file/26bd59d32df9d8bc7774c.jpg))
+ℂ𝕝𝕚𝕔𝕜 𝕠𝕟 𝕥𝕙𝕖 𝕓𝕦𝕥𝕥𝕠𝕟𝕤 𝕓𝕖𝕝𝕠𝕨 𝕥𝕠 𝕘𝕖𝕥 𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥 𝕒𝕓𝕠𝕦𝕥 𝕤𝕡𝕖𝕔𝕚𝕗𝕚𝕔 𝕞𝕠𝕓𝕦𝕝𝕖𝕤  𝔸𝕟𝕪 𝕡𝕣𝕠𝕓𝕝𝕖𝕞 𝕔𝕠𝕟𝕥𝕒𝕔𝕥 [ཧᜰ꙰ꦿ➢𝐎𝐀𝐍༒☛](Https://t.me/OAN_Support)
+🔗𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : @Attitude_Network ..`"""
 
-amelia_IMG = "https://te.legra.ph/file/26bd59d32df9d8bc7774c.jpg"
+amelia_IMG = "https://telegra.ph/file/fe6cdd4bc4fc17820083a.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @itsmelegend\
+ You can support the project via [Paypal](#) or by contacting @ItsAttitudeking\
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -356,9 +370,9 @@ def amelia_about_callback(update, context):
                  \n⚡ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n💫 I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n⚡ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_💫bot licensed under the GNU General Public License v3.0_
+                 \n\n_⚡bot licensed under the GNU General Public License v3.0_
                  \n⚡Here is the [🎶ᴏᴜʀ ᴍᴜꜱɪᴄ ʙᴏᴛ🎶](Https://t.me/Op_moti_music_robot).
-                 \n\nIf you have any question about amelia, let us know at [👑ᴏᴡɴᴇʀ👑](Https://t.me/Alone_Shaurya_king) .""",
+                 \n\n⚡If you have any question about Thor, let us know at [👑𝕆𝕎ℕ𝔼ℝ👑](Https://t.me/ItsAttitudeking) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -384,8 +398,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *amelia*
-                 \nHere is the [Source Code](https://github.com/xAbhishek/AmeliaRobot) .""",
+            text=""" Hi..🤗 I'm *Thor*
+                 \nHere is the [Source Code](https://github.com/ItsAttitudeking) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
